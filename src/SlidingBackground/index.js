@@ -27,7 +27,7 @@ const SlidingBackground = () => {
     <div className="sliding-background-container">
       <CrossFadeImages
         src={imgList[curImg].url}
-        duration={2000}
+        duration={1500}
         timingFunction={'ease-out'}
       />
     </div>
