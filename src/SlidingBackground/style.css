@@ -1,0 +1,25 @@
+.sliding-background-container {
+  width: 100%;
+  margin: 0 auto;
+  position: absolute;
+  top: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  z-index: -999999;
+}
+
+.CrossfadeImage {
+  width: 100%;
+  height: auto;
+}
+
+.CrossfadeImage img {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
+/* .CrossfadeImage img:last-of-type {
+  display: flex;
+} */
